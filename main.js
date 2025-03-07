@@ -29,6 +29,10 @@ playButt = document.querySelector('.playbutt')
 scoresText = document.querySelector('.scores')
 clicksText = document.querySelector('.clicks')
 ball = document.querySelector('.click')
+score = 0
+clicks = 0
+gameTime = 15
+gameStatus = false
 gameTimerText = document.querySelector('.timer')
 function randomPos(item){
     randomW = Math.floor(Math.random() * 450)
